@@ -15,3 +15,4 @@ C:\Users\ALIEN\source\repos\SW_Console\SW_ConsoleApp\obj\Debug\net8.0\refint\SW_
 C:\Users\ALIEN\source\repos\SW_Console\SW_ConsoleApp\obj\Debug\net8.0\SW_ConsoleApp.pdb
 C:\Users\ALIEN\source\repos\SW_Console\SW_ConsoleApp\obj\Debug\net8.0\SW_ConsoleApp.genruntimeconfig.cache
 C:\Users\ALIEN\source\repos\SW_Console\SW_ConsoleApp\obj\Debug\net8.0\ref\SW_ConsoleApp.dll
+C:\Users\ALIEN\source\repos\SW_Console\SW_ConsoleApp\obj\Debug\net8.0\SW_ConsoleApp.sourcelink.json

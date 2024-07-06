@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ALIEN\\source\\repos\\SW_Console\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B1FAB807-BA24-4C7D-9541-445FC54C8614}|UnitTesting\\UnitTesting.csproj|c:\\users\\alien\\source\\repos\\sw_console\\unittesting\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FAB807-BA24-4C7D-9541-445FC54C8614}|UnitTesting\\UnitTesting.csproj|solutionrelative:unittesting\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A5FF8FC9-C6F2-4740-81AB-9D3A5A1EFA6A}|SW_ConsoleApp\\SW_ConsoleApp.csproj|c:\\users\\alien\\source\\repos\\sw_console\\sw_consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5FF8FC9-C6F2-4740-81AB-9D3A5A1EFA6A}|SW_ConsoleApp\\SW_ConsoleApp.csproj|solutionrelative:sw_consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5FF8FC9-C6F2-4740-81AB-9D3A5A1EFA6A}|SW_ConsoleApp\\SW_ConsoleApp.csproj|c:\\users\\alien\\source\\repos\\sw_console\\sw_consoleapp\\inputstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5FF8FC9-C6F2-4740-81AB-9D3A5A1EFA6A}|SW_ConsoleApp\\SW_ConsoleApp.csproj|solutionrelative:sw_consoleapp\\inputstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5FF8FC9-C6F2-4740-81AB-9D3A5A1EFA6A}|SW_ConsoleApp\\SW_ConsoleApp.csproj|c:\\users\\alien\\source\\repos\\sw_console\\sw_consoleapp\\inputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5FF8FC9-C6F2-4740-81AB-9D3A5A1EFA6A}|SW_ConsoleApp\\SW_ConsoleApp.csproj|solutionrelative:sw_consoleapp\\inputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "InputService.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN\\source\\repos\\SW_Console\\SW_ConsoleApp\\InputService.cs",
+              "RelativeDocumentMoniker": "SW_ConsoleApp\\InputService.cs",
+              "ToolTip": "C:\\Users\\ALIEN\\source\\repos\\SW_Console\\SW_ConsoleApp\\InputService.cs",
+              "RelativeToolTip": "SW_ConsoleApp\\InputService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:20:23.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InputString.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN\\source\\repos\\SW_Console\\SW_ConsoleApp\\InputString.cs",
+              "RelativeDocumentMoniker": "SW_ConsoleApp\\InputString.cs",
+              "ToolTip": "C:\\Users\\ALIEN\\source\\repos\\SW_Console\\SW_ConsoleApp\\InputString.cs",
+              "RelativeToolTip": "SW_ConsoleApp\\InputString.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:09:40.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ALIEN\\source\\repos\\SW_Console\\SW_ConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "SW_ConsoleApp\\Program.cs",
               "ToolTip": "C:\\Users\\ALIEN\\source\\repos\\SW_Console\\SW_ConsoleApp\\Program.cs",
               "RelativeToolTip": "SW_ConsoleApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-06T13:27:46.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN\\source\\repos\\SW_Console\\UnitTesting\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "UnitTesting\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\ALIEN\\source\\repos\\SW_Console\\UnitTesting\\UnitTest1.cs",
+              "RelativeToolTip": "UnitTesting\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:00:23.229Z",
               "EditorCaption": ""
             }
           ]

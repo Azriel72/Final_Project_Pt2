@@ -1,22 +1,27 @@
 ﻿using SearchWords_ClassLibrary;
+using SW_ConsoleApp;
 
 namespace Search_Word_Console
 {
-    class Search_Words
+    class Program
     {
-        static void Main(string[] args)
+        static public void Main(String[] args)
         {
-            Console.Write("Input the array of words (word1,word2,word3,etc): ");
+            Console.WriteLine("Input the list of words separeted by comas (word1,word2,word3): ");
             string input = Console.ReadLine();
 
-            List<string> words = input.Split(',').ToList();
-            IWordsRepository repository = new WordsRepository(words);
+            var inputString = new InputString(input);
+            var processingService = new InputService();
+            var separatedValues = processingService.SeperatedByComas(inputString);
+
+            IWordsRepository repository = new WordsRepository(separatedValues);
             var search_service = new DDD_Six_Letter_Words(repository);
             var six_letter_words = search_service.Search_SixLetter_Words();
 
-            foreach (string word in six_letter_words)
+            Console.WriteLine("Six letter words that are composed of at least 2 words in given list:");
+            foreach (var word in six_letter_words)
             {
-                Console.WriteLine(word);
+                Console.WriteLine("- " + word);
             }
         }
     }
