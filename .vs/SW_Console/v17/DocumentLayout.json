@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ALIEN\\source\\repos\\SW_Console\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5FF8FC9-C6F2-4740-81AB-9D3A5A1EFA6A}|SW_ConsoleApp\\SW_ConsoleApp.csproj|c:\\users\\alien\\source\\repos\\sw_console\\sw_consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5FF8FC9-C6F2-4740-81AB-9D3A5A1EFA6A}|SW_ConsoleApp\\SW_ConsoleApp.csproj|solutionrelative:sw_consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN\\source\\repos\\SW_Console\\SW_ConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "SW_ConsoleApp\\Program.cs",
+              "ToolTip": "C:\\Users\\ALIEN\\source\\repos\\SW_Console\\SW_ConsoleApp\\Program.cs",
+              "RelativeToolTip": "SW_ConsoleApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T13:27:46.517Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
