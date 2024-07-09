@@ -10,21 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkcout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-    - name: Set up .Net
+    - name: Set up .NET
       uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: '8.0x'
+        dotnet-version: '8.0.x'
 
     - name: Restore dependencies
       run: dotnet restore
 
     - name: Build the project
+      run: dotnet build --configuration Release --no-restore
+
+    - name: Pack the project
       run: dotnet pack --configuration Release --no-build --output ./nupkg
 
-    - name: Publish NuGet
+    - name: Publish to NuGet
       env:
         NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
       run: dotnet nuget push ./nupkg/*.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
